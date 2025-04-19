@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const cors = require('cors')
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://frontend-production-d41a.up.railway.app/',
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200
 }))
